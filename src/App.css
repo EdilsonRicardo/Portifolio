@@ -7,7 +7,7 @@
 }
 body{
     background-color: rgb(7, 7, 13);
-    font-size: 1.6vw;
+    font-size: 2vw;
 }
 
 .app {
@@ -38,8 +38,11 @@ body{
 }
 
 .nome-image-container {
+    display: flex;
+    justify-content: center;
     position: relative;
-    width: 100%;
+    width: 95%;
+    /* background-color: red; */
 }
 
 .texto-sobre-imagem {
@@ -119,6 +122,7 @@ h3{
 @media(max-width:1200px){
     #image-profile {
         content: url(./img/mobile.jpg);
+        width: 95%;
     }
 
     .texto-sobre-imagem {
