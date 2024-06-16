@@ -11,6 +11,7 @@ const Skills = () => {
             <p><span>Phone Number:</span> (+258) 84 66 25 743</p>
             <p><span>E-mail:</span> edilsonricardo212@gmail.com</p>
         </div>
+        
 
         <div>
                 <h3>SKILLS</h3>
@@ -24,6 +25,9 @@ const Skills = () => {
                 <li>FIREBASE</li>
             </ul>
         </div>
+        <a href="/CV.pdf" download="CV.pdf" id='link-cv' target="_blank" rel="noopener noreferrer">
+                <p>BAIXAR MEU CV</p>
+            </a>
     </div>
   )
 }

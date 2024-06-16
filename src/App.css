@@ -231,6 +231,14 @@ h3 {
     color: white;
 }
 
+#link-cv{
+    text-decoration: none;
+    color: white;
+}
+#link-cv:hover{
+    color: rgb(12, 182, 12);
+}
+
 @media(max-width:1200px) {
     .legenda-projecto {
         font-size: 2vw;
