@@ -141,6 +141,7 @@ body {
     padding: 20px 0;
     margin: 20px 0;
     border-radius: 15px;
+    font-size: 17px;
 }
 
 #close-up-photo {
@@ -278,5 +279,12 @@ h3 {
         height: 50vw;
         border-radius: 7px;
         /* background-color: red; */
+    }
+
+    .container-flex{
+        width: 100%;
+    }
+    #paragraph-about{
+        width: 80%;
     }
 }
