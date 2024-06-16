@@ -4,8 +4,7 @@ const About = () => {
   return (
     <div className='center' id='about'>
         <h2>ABOUT ME</h2>
-        <p id='paragraph-about'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita exercitationem minima facere officiis consequuntur velit perferendis necessitatibus consequatur, incidunt deleniti iusto quisquam eligendi. Magnam, debitis asperiores. Sit eius consequatur ratione.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima doloremque debitis soluta, nisi quia aliquid expedita sapiente, nam ullam perferendis a, obcaecati voluptatem cumque excepturi. Deleniti possimus laudantium dolor quae.
+        <p id='paragraph-about'>Edilson dos Santos Ricardo, currently a fourth-year student at Eduardo Mondlane University (as of 2024), majoring in Computer Science. In 2021, I graduated in Accounting and Auditing from ISCAM but decided to pursue my passion in the technology field. My journey thus far has been both enjoyable and enlightening, with significant learning experiences over the past few years. 
         </p>
     </div>
   )
