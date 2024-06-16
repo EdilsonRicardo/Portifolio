@@ -26,16 +26,33 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    height: 5vh;
-    /* background-color: blue; */
+    justify-content: center;
+    height: 8vh;
+    background-color: rgb(7, 7, 13);
     gap: 30px;
     color: white;
+    /* padding: 5px; */
+    position: fixed;
+    width: 95%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.botao-nav {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-nav:hover {
+    color: rgb(8, 191, 8);
 }
 
 #image-profile {
     width: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .nome-image-container {
@@ -118,7 +135,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(7, 7, 25);
+    background-color: rgb(2, 2, 5);
     width: 75%;
     padding: 20px 0;
     margin: 20px 0;
@@ -126,8 +143,8 @@ body {
 }
 
 #close-up-photo {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin: 0 15px 5px 0;
     border-radius: 50px;
 }
@@ -146,12 +163,81 @@ h3 {
     align-items: end;
     flex-direction: column;
     justify-content: right;
+    gap: 1.35px;
+}
+
+.container-portifolio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 5);
+    width: 100%;
+    padding: 40px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-portf-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 13vw;
+    border-radius: 7px;
+    /* background-color: red; */
+}
+
+.label-projecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+    cursor: pointer;
+
+}
+
+.label-projecto:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.legenda-projecto {
+    font-size: 1vw;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.link-projecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
 }
 
 @media(max-width:1200px) {
+    .legenda-projecto {
+        font-size: 2vw;
+    }
+
     #image-profile {
         content: url(./img/mobile.jpg);
-        width: 95%;
+        width: 100%;
+        
     }
 
     .texto-sobre-imagem {
@@ -166,5 +252,10 @@ h3 {
 
     body {
         font-size: 2vw;
+    }
+
+    .navbar {
+        height: 1vh;
+        padding: 8px 0;
     }
 }
