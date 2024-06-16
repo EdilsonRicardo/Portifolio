@@ -141,7 +141,7 @@ body {
     padding: 20px 0;
     margin: 20px 0;
     border-radius: 15px;
-    font-size: 17px;
+    /* font-size: 14px; */
 }
 
 #close-up-photo {
@@ -253,7 +253,7 @@ h3 {
     }
 
     body {
-        font-size: 2vw;
+        font-size: 2.1vw;
     }
 
     .navbar {
